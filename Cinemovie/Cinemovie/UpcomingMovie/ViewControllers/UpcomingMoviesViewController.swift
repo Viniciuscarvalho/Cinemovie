@@ -55,8 +55,15 @@ class UpcomingMoviesViewController: UIViewController, ListUpcomingMoviesDelegate
                 let movieImage = self.tableViewDataSource.images[movie.id]
                 let movieGenres = self.genres.filter({ movie.genresIds.contains($0.id) })
                 MoviesRouterNavigation(navigationController: navigationController).movieDetail(movie: movie, movieGenres: movieGenres, movieBackdropImage: movieImage)
-            }
-        })
+                }
+            }, willDisplay: { indexPath in
+                let indexPathPagination = indexPath.row
+                let objects = self.tableViewDataSource.objects.count
+                if indexPathPagination == objects - 1 {
+                    self.listUpcomingMoviesInteractor?.pagination += 1
+                    self.listUpcomingMoviesInteractor?.list()
+                }
+            })
         tableView.delegate = tableViewDelegate
     }
     

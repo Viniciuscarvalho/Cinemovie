@@ -6,14 +6,14 @@ public protocol GenresGateway {
 
 public class GenresGatewayService: GenresGateway {
     
-    var webService: WebService
+    var service: Service
     
-    init(webService: WebService) {
-        self.webService = webService
+    init(service: Service) {
+        self.service = service
     }
     
     public func list(completion: @escaping ([Genre]?, Error?) -> Void) {
-        webService.load(resource: Resources.moviesGenres(), completion: { genres, error in
+        service.load(resource: Resources.moviesGenres(), completion: { genres, error in
             completion(genres, error)
         })
     }

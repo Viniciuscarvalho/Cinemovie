@@ -32,7 +32,7 @@
 		EA2B7F0822090FF8001372FE /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EE622090FF8001372FE /* Movies.swift */; };
 		EA2B7F0922090FF8001372FE /* MoviesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EE822090FF8001372FE /* MoviesRouter.swift */; };
 		EA2B7F0A22090FF8001372FE /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EEB22090FF8001372FE /* Resource.swift */; };
-		EA2B7F0B22090FF8001372FE /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EEC22090FF8001372FE /* WebService.swift */; };
+		EA2B7F0B22090FF8001372FE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EEC22090FF8001372FE /* Service.swift */; };
 		EA2B7F0C22090FF8001372FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2B7EEE22090FF8001372FE /* Assets.xcassets */; };
 		EA2B7F0D22090FF8001372FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2B7EEF22090FF8001372FE /* LaunchScreen.storyboard */; };
 		EA2B7F0E22090FF8001372FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EF122090FF8001372FE /* AppDelegate.swift */; };
@@ -77,7 +77,7 @@
 		EA2B7EE622090FF8001372FE /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		EA2B7EE822090FF8001372FE /* MoviesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesRouter.swift; sourceTree = "<group>"; };
 		EA2B7EEB22090FF8001372FE /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		EA2B7EEC22090FF8001372FE /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		EA2B7EEC22090FF8001372FE /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		EA2B7EEE22090FF8001372FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2B7EF022090FF8001372FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2B7EF122090FF8001372FE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -269,7 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				EA2B7EEB22090FF8001372FE /* Resource.swift */,
-				EA2B7EEC22090FF8001372FE /* WebService.swift */,
+				EA2B7EEC22090FF8001372FE /* Service.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -398,7 +398,7 @@
 				EA2B7EF522090FF8001372FE /* UpcomingMoviesDataSource.swift in Sources */,
 				EA2B7F0722090FF8001372FE /* Genre.swift in Sources */,
 				EA2B7F0222090FF8001372FE /* GetMovieBackdropFactory.swift in Sources */,
-				EA2B7F0B22090FF8001372FE /* WebService.swift in Sources */,
+				EA2B7F0B22090FF8001372FE /* Service.swift in Sources */,
 				EA2B7EF322090FF8001372FE /* MovieBackdropPresenter.swift in Sources */,
 				EA2B7F0822090FF8001372FE /* Movies.swift in Sources */,
 				EA2B7F0322090FF8001372FE /* MovieGateway.swift in Sources */,

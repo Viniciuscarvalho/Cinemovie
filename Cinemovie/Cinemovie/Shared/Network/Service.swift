@@ -1,11 +1,11 @@
 import Foundation
 
-protocol WebService {
+protocol Service {
     func load<T>(resource: Resource<T>, completion: @escaping (T?, Error?) -> Void)
     func download(url: URL, completion: @escaping (Data?) -> Void)
 }
 
-final class WebServiceSession: WebService {
+final class WebServiceSession: Service {
     
     func load<T>(resource: Resource<T>, completion: @escaping (T?, Error?) -> Void) {
         URLSession.shared.dataTask(with: resource.url as URL) { data, _, error in
