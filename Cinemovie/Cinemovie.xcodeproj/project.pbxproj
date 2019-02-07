@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA2B7EBC2208FF75001372FE /* CinemovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EBB2208FF75001372FE /* CinemovieTests.swift */; };
 		EA2B7EF322090FF8001372FE /* MovieBackdropPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EC822090FF8001372FE /* MovieBackdropPresenter.swift */; };
 		EA2B7EF422090FF8001372FE /* UpcomingMoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EC922090FF8001372FE /* UpcomingMoviesPresenter.swift */; };
 		EA2B7EF522090FF8001372FE /* UpcomingMoviesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7ECB22090FF8001372FE /* UpcomingMoviesDataSource.swift */; };
@@ -36,6 +35,14 @@
 		EA2B7F0C22090FF8001372FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2B7EEE22090FF8001372FE /* Assets.xcassets */; };
 		EA2B7F0D22090FF8001372FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2B7EEF22090FF8001372FE /* LaunchScreen.storyboard */; };
 		EA2B7F0E22090FF8001372FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7EF122090FF8001372FE /* AppDelegate.swift */; };
+		EA2B7F15220BB34D001372FE /* EntityTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F14220BB34D001372FE /* EntityTestCase.swift */; };
+		EA2B7F17220BB4BA001372FE /* GenreEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F16220BB4BA001372FE /* GenreEntityTests.swift */; };
+		EA2B7F19220BB81D001372FE /* MovieEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F18220BB81D001372FE /* MovieEntityTests.swift */; };
+		EA2B7F1B220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F1A220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift */; };
+		EA2B7F21220BBB35001372FE /* ErrorFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F20220BBB35001372FE /* ErrorFake.swift */; };
+		EA2B7F23220BBBD7001372FE /* Genre.json in Resources */ = {isa = PBXBuildFile; fileRef = EA2B7F22220BBBD7001372FE /* Genre.json */; };
+		EA2B7F25220BBBFD001372FE /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = EA2B7F24220BBBFD001372FE /* Movies.json */; };
+		EA2B7F27220BBC7D001372FE /* ServiceFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F26220BBC7D001372FE /* ServiceFake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +58,6 @@
 /* Begin PBXFileReference section */
 		EA2B7EA32208FF73001372FE /* Cinemovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2B7EB72208FF75001372FE /* CinemovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA2B7EBB2208FF75001372FE /* CinemovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemovieTests.swift; sourceTree = "<group>"; };
 		EA2B7EBD2208FF75001372FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA2B7EC822090FF8001372FE /* MovieBackdropPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieBackdropPresenter.swift; sourceTree = "<group>"; };
 		EA2B7EC922090FF8001372FE /* UpcomingMoviesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingMoviesPresenter.swift; sourceTree = "<group>"; };
@@ -82,6 +88,15 @@
 		EA2B7EF022090FF8001372FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2B7EF122090FF8001372FE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA2B7EF222090FF8001372FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2B7F13220BB34C001372FE /* CinemovieTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CinemovieTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA2B7F14220BB34D001372FE /* EntityTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTestCase.swift; sourceTree = "<group>"; };
+		EA2B7F16220BB4BA001372FE /* GenreEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreEntityTests.swift; sourceTree = "<group>"; };
+		EA2B7F18220BB81D001372FE /* MovieEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntityTests.swift; sourceTree = "<group>"; };
+		EA2B7F1A220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovieBackdropInteractorTests.swift; sourceTree = "<group>"; };
+		EA2B7F20220BBB35001372FE /* ErrorFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorFake.swift; sourceTree = "<group>"; };
+		EA2B7F22220BBBD7001372FE /* Genre.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Genre.json; sourceTree = "<group>"; };
+		EA2B7F24220BBBFD001372FE /* Movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
+		EA2B7F26220BBC7D001372FE /* ServiceFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +149,11 @@
 		EA2B7EBA2208FF75001372FE /* CinemovieTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA2B7EBB2208FF75001372FE /* CinemovieTests.swift */,
 				EA2B7EBD2208FF75001372FE /* Info.plist */,
+				EA2B7F13220BB34C001372FE /* CinemovieTests-Bridging-Header.h */,
+				EA2B7F12220BB2FE001372FE /* Mocks */,
+				EA2B7F11220BB2F3001372FE /* Interactors */,
+				EA2B7F10220BB2E7001372FE /* Entities */,
 			);
 			path = CinemovieTests;
 			sourceTree = "<group>";
@@ -285,6 +303,67 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		EA2B7F10220BB2E7001372FE /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EA2B7F14220BB34D001372FE /* EntityTestCase.swift */,
+				EA2B7F16220BB4BA001372FE /* GenreEntityTests.swift */,
+				EA2B7F18220BB81D001372FE /* MovieEntityTests.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EA2B7F11220BB2F3001372FE /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				EA2B7F1A220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		EA2B7F12220BB2FE001372FE /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				EA2B7F1F220BBB0F001372FE /* Errors */,
+				EA2B7F1E220BBB07001372FE /* Json */,
+				EA2B7F1D220BBAFE001372FE /* Presenters */,
+				EA2B7F1C220BBAF1001372FE /* Network */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		EA2B7F1C220BBAF1001372FE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EA2B7F26220BBC7D001372FE /* ServiceFake.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EA2B7F1D220BBAFE001372FE /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		EA2B7F1E220BBB07001372FE /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				EA2B7F22220BBBD7001372FE /* Genre.json */,
+				EA2B7F24220BBBFD001372FE /* Movies.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		EA2B7F1F220BBB0F001372FE /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				EA2B7F20220BBB35001372FE /* ErrorFake.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,6 +417,7 @@
 					};
 					EA2B7EB62208FF75001372FE = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 						TestTargetID = EA2B7EA22208FF73001372FE;
 					};
 				};
@@ -378,6 +458,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2B7F25220BBBFD001372FE /* Movies.json in Resources */,
+				EA2B7F23220BBBD7001372FE /* Genre.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +500,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA2B7EBC2208FF75001372FE /* CinemovieTests.swift in Sources */,
+				EA2B7F21220BBB35001372FE /* ErrorFake.swift in Sources */,
+				EA2B7F1B220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift in Sources */,
+				EA2B7F27220BBC7D001372FE /* ServiceFake.swift in Sources */,
+				EA2B7F17220BB4BA001372FE /* GenreEntityTests.swift in Sources */,
+				EA2B7F19220BB81D001372FE /* MovieEntityTests.swift in Sources */,
+				EA2B7F15220BB34D001372FE /* EntityTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +688,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U8286L9PF;
 				INFOPLIST_FILE = CinemovieTests/Info.plist;
@@ -611,6 +699,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciuscarvalho.CinemovieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CinemovieTests/Entities/CinemovieTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinemovie.app/Cinemovie";
@@ -622,6 +712,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U8286L9PF;
 				INFOPLIST_FILE = CinemovieTests/Info.plist;
@@ -632,6 +723,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciuscarvalho.CinemovieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CinemovieTests/Entities/CinemovieTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinemovie.app/Cinemovie";
