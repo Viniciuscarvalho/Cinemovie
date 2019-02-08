@@ -1,4 +1,5 @@
 import Foundation
+@testable import Cinemovie
 
 class GetMovieBackdropPresenterStub: GetMovieBackdropPresenter {
     

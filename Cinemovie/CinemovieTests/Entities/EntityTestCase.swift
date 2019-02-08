@@ -4,7 +4,8 @@ import XCTest
 class EntityTestCase: XCTestCase {
     
     func loadJson(resource: String) -> JSONDictionary? {
-        if let path = Bundle.main.path(forResource: resource, ofType: "json"),
+        let bundleTest = Bundle(for: type(of: self))
+        if let path = bundleTest.path(forResource: resource, ofType: "json"),
             let jsonNSData = try? NSData(contentsOfFile: path,
                                          options: .dataReadingMapped) {
             let jsonData = jsonNSData as Data

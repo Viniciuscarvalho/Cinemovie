@@ -1,4 +1,5 @@
 import XCTest
+@testable import Cinemovie
 
 class ListUpcomingMoviesInteractorTests: XCTestCase {
     
