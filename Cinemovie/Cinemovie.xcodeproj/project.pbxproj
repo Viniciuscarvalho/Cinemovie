@@ -38,11 +38,12 @@
 		EA2B7F15220BB34D001372FE /* EntityTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F14220BB34D001372FE /* EntityTestCase.swift */; };
 		EA2B7F17220BB4BA001372FE /* GenreEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F16220BB4BA001372FE /* GenreEntityTests.swift */; };
 		EA2B7F19220BB81D001372FE /* MovieEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F18220BB81D001372FE /* MovieEntityTests.swift */; };
-		EA2B7F1B220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F1A220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift */; };
 		EA2B7F21220BBB35001372FE /* ErrorFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F20220BBB35001372FE /* ErrorFake.swift */; };
 		EA2B7F23220BBBD7001372FE /* Genre.json in Resources */ = {isa = PBXBuildFile; fileRef = EA2B7F22220BBBD7001372FE /* Genre.json */; };
 		EA2B7F25220BBBFD001372FE /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = EA2B7F24220BBBFD001372FE /* Movies.json */; };
 		EA2B7F27220BBC7D001372FE /* ServiceFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B7F26220BBC7D001372FE /* ServiceFake.swift */; };
+		EA3EE4CC220D0A1600D241B7 /* ListUpcomingMoviesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3EE4CA220D0A1500D241B7 /* ListUpcomingMoviesInteractorTests.swift */; };
+		EA3EE4CD220D0A1600D241B7 /* ListUpcomingMoviesPresenterStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3EE4CB220D0A1500D241B7 /* ListUpcomingMoviesPresenterStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,11 +93,12 @@
 		EA2B7F14220BB34D001372FE /* EntityTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTestCase.swift; sourceTree = "<group>"; };
 		EA2B7F16220BB4BA001372FE /* GenreEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreEntityTests.swift; sourceTree = "<group>"; };
 		EA2B7F18220BB81D001372FE /* MovieEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntityTests.swift; sourceTree = "<group>"; };
-		EA2B7F1A220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovieBackdropInteractorTests.swift; sourceTree = "<group>"; };
 		EA2B7F20220BBB35001372FE /* ErrorFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorFake.swift; sourceTree = "<group>"; };
 		EA2B7F22220BBBD7001372FE /* Genre.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Genre.json; sourceTree = "<group>"; };
 		EA2B7F24220BBBFD001372FE /* Movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
 		EA2B7F26220BBC7D001372FE /* ServiceFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFake.swift; sourceTree = "<group>"; };
+		EA3EE4CA220D0A1500D241B7 /* ListUpcomingMoviesInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListUpcomingMoviesInteractorTests.swift; path = ../../../CinemovieTests/Interactors/ListUpcomingMoviesInteractorTests.swift; sourceTree = "<group>"; };
+		EA3EE4CB220D0A1500D241B7 /* ListUpcomingMoviesPresenterStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListUpcomingMoviesPresenterStub.swift; path = ../../../CinemovieTests/Interactors/ListUpcomingMoviesPresenterStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,7 +318,8 @@
 		EA2B7F11220BB2F3001372FE /* Interactors */ = {
 			isa = PBXGroup;
 			children = (
-				EA2B7F1A220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift */,
+				EA3EE4CA220D0A1500D241B7 /* ListUpcomingMoviesInteractorTests.swift */,
+				EA3EE4CB220D0A1500D241B7 /* ListUpcomingMoviesPresenterStub.swift */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -501,11 +504,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA2B7F21220BBB35001372FE /* ErrorFake.swift in Sources */,
-				EA2B7F1B220BBA5E001372FE /* GetMovieBackdropInteractorTests.swift in Sources */,
+				EA3EE4CC220D0A1600D241B7 /* ListUpcomingMoviesInteractorTests.swift in Sources */,
 				EA2B7F27220BBC7D001372FE /* ServiceFake.swift in Sources */,
 				EA2B7F17220BB4BA001372FE /* GenreEntityTests.swift in Sources */,
 				EA2B7F19220BB81D001372FE /* MovieEntityTests.swift in Sources */,
 				EA2B7F15220BB34D001372FE /* EntityTestCase.swift in Sources */,
+				EA3EE4CD220D0A1600D241B7 /* ListUpcomingMoviesPresenterStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
